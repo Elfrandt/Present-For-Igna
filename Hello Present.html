@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>
+        Present For Igna
+    </title>
+    <style>
+        /* Gaya dasar tulisan */
+        #color-changing-text {
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 15%;
+        }
+    </style>
+</head>
+<body background="Cross.jpg">
+    <br />
+    <h3 align="center">
+        <Font face="Lato" size="6" font color="white">HELLO IGNA</Font>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <font face="Cinzel" font size="5">
+        <a href="#">Bible</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">Motivation</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">Notes</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">Reflection</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </font>
+    </h3>
+
+    <div id="color-changing-text">AND FOR THE LAST GIFT</div>
+
+    <script>
+        const textElement = document.getElementById('color-changing-text');
+        const colors = ['red', 'blue', 'green', 'purple', 'orange']; // Daftar warna
+        let colorIndex = 0;
+
+        // Fungsi untuk mengubah warna
+        function changeColor() {
+            textElement.style.color = colors[colorIndex];
+            colorIndex = (colorIndex + 1) % colors.length; // Berputar pada warna
+        }
+
+        // Mengubah warna setiap 1 detik (1000 milidetik)
+        setInterval(changeColor, 1000);
+    </script>
+    <style>
+   .btn-next {
+    font-size: 1.8em;
+    padding: 10px 20px;
+    color: rgb(255,255,255);
+    background-color: rgb(0,123,255);
+    border: none;
+    border-radius: 2px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin-left: 42.5%;
+}
+.btn-next:hover {
+    background-color: rgb(0,102,204);
+}     
+    </style>
+    <br /> 
+    <a href="#" class="btn-next">Special Gift</a>
+</h1>
+</body>
+</html>
